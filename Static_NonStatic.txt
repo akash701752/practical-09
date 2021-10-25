@@ -1,0 +1,10 @@
+// Akash Yadav 200111076 A                                                    25/10/2021
+Difference between Stactic and Non Static Variable 
+
+Non Static Variable:
+When the Non Stactic Variable is Declared the compiler does not allocate the the Memory to the 
+Non Static Variable untill it initialized with some value .
+
+Static Variable :
+When the Static Variable is declared the compiler allocate the memory to the Stactic Variable
+at the time of Declaration .
