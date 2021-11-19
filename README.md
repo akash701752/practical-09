@@ -16,10 +16,23 @@ Program to Use Copy Constructor .
 TASK 5 :
 Program to Use Static data Member to count Object .
 
-Task 6 : 
+TASK 6 : 
 Program to create College class and Student Structure in C++ in one program .
 
-
+TASK 7 :
+   WAP which would perform these tasks of your data:
+   a. Come to next line
+   b. set minimum field width
+   c. fill string with (*) after setw(15) function
+    **********1234
+   by using endl, setw, and setfill [Manipulators in C++] 
+   
+     
+      
+      
+                                                                                                                 Thank You
+                                                                                                                - Akash Yadav
+                                                                                                                
 
 
 
