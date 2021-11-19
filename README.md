@@ -14,6 +14,12 @@ TASK 4 :
 Program to Use Copy Constructor .
 
 TASK 5 :
-Program to Use Static data Member to count Object 
+Program to Use Static data Member to count Object .
+
+Task 6 : 
+Program to create College class and Student Structure in C++ in one program .
+
+
+
 
 
