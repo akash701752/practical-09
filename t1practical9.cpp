@@ -3,32 +3,34 @@
 
 using namespace std;
 
-class ABC
+class Area
 {
-    private :
-       int a ;
     public :
-      ABC()
+      int ar ;
+      void area(int x , int y)
       {
-          cout<<"Constructor is Called " << endl ;
+          ar = x*y ;
       }
-      void setA(int b) // Setter
+      void area(int x )
       {
-          a = b ; // Setting the Private Variable a Using Setter
+          ar = x*x;
       }
-      int getA()
+      void show() 
       {
-          return a ;
+          cout<<"Area is : "<<ar <<endl ;
       }
 };
 int main()
 {
-    ABC obj ; // Creating Object  Constructor will Called When an Object is Created 
-    int num ;
-    cout<<"Enter the Value of Private Variable : " ;
-    cin>>num ;
-    obj.setA(num) ; // Setting the Value of Private Variable of Class Using Setter 
-    cout<<"The Value of Private Variable is : "<<obj.getA() << endl ; // Getting the Value of a using Getter Function 
+    int  l , b , s ;
+    Area rect , square ;
+    cout<<"Enter Length and Breadth : " ;
+    cin>>l>>b ;
+    rect.area(l,b) ;
+    rect.show() ;
+    cout<<"Enter Side of Square: " ;
+    cin>>s ;
+    square.area(s) ;
+    square.show() ;
     return 0;
 }
-
