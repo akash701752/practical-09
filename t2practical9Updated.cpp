@@ -1,4 +1,4 @@
-// Task 1 : Practical 9 : To Call a Constructor 
+// Task 2 : Practical 9 : To Call a Constructor 
 #include <iostream>
 
 using namespace std;
