@@ -7,11 +7,11 @@ class Area
 {
     public :
       int ar ;
-      void area(int x , int y)
+      Area(int x , int y)
       {
           ar = x*y ;
       }
-      void area(int x )
+      Area(int x )
       {
           ar = x*x;
       }
@@ -23,14 +23,14 @@ class Area
 int main()
 {
     int  l , b , s ;
-    Area rect , square ;
+    
     cout<<"Enter Length and Breadth : " ;
     cin>>l>>b ;
-    rect.area(l,b) ;
+    Area rect(l,b) ;
     rect.show() ;
     cout<<"Enter Side of Square: " ;
     cin>>s ;
-    square.area(s) ;
+    Area square(s) ;
     square.show() ;
     return 0;
 }
