@@ -1,6 +1,6 @@
 // Practical 9 
 
-// Task 6 : Program to create College class and Student Structure in C++ in one program.
+// Task 5 : Program to create College class and Student Structure in C++ in one program.
 
 /*
   The Difference between Class and Structure
