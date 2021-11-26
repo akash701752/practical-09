@@ -1,5 +1,6 @@
 // Practical 9 
-// Task 5 : To Use Static data Member to count Object 
+// This is Actual Task 3 of Practical 9 According to the Lab Manual
+// Task 3 : To Use Static data Member to count Object 
 #include <iostream>
 using namespace std ;
 
